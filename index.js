@@ -5,21 +5,7 @@ const bodyParser = require("body-parser");
 const fetch = require("node-fetch");
 const moment = require("moment");
 
-const {
-  dialogflow,
-  BasicCard,
-  BrowseCarousel,
-  BrowseCarouselItem,
-  Button,
-  Carousel,
-  Image,
-  LinkOutSuggestion,
-  List,
-  MediaObject,
-  Suggestions,
-  SimpleResponse,
-  Table
-} = require("actions-on-google");
+const { dialogflow } = require("actions-on-google");
 const app = dialogflow();
 
 app.intent("Default Welcome Intent", conv => {
