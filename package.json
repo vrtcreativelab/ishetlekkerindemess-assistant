@@ -1,0 +1,16 @@
+{
+  "name": "ishetlekkerindemess-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^2.7.1",
+    "body-parser": "^1.19.0",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
+    "serverless-dynamodb-client": "^0.0.2",
+    "serverless-dynamodb-local": "^0.2.38",
+    "serverless-express": "^2.0.11",
+    "serverless-offline": "^5.5.0"
+  }
+}
