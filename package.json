@@ -6,7 +6,7 @@
   "dependencies": {
     "actions-on-google": "^2.7.1",
     "body-parser": "^1.19.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-fetch": "^2.6.0",
     "serverless-dynamodb-client": "^0.0.2",
     "serverless-dynamodb-local": "^0.2.38",
